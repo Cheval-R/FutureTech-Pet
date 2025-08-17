@@ -9,6 +9,8 @@
   --color-dark-20: #333;
   --color-dark-40: #666;
 
+  --border-dark-15: #{rem(1)} solid var(--color-dark-15);
+
   --color-grey-50: #7e7e81;
   --color-grey-60: #98989a;
 
@@ -16,10 +18,12 @@
 
   --color-red: #ff5500;
 
+  --gradient: linear-gradient(45deg, var(--color-dark-15) 64%, var(--color-accent) 136%);
+
   --font-family-base: "Inter", sans-serif;
   --font-family-accent: "Kumbh Sans", sans-serif;
 
-  --container-x: #{rem(1600)};
+  --container-width: #{rem(1600)};
   --container-padding-x: #{rem(16)};
 
   --transition-duration: 0.25s;
